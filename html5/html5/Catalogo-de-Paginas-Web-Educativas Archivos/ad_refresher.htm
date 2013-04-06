@@ -1,0 +1,63 @@
+<html><head>
+    <script type="text/javascript" src="Catalogo-de-Paginas-Web-Educativas%20Archivos/google_service.js"></script>
+    <script type="text/javascript">
+      GS_googleAddAdSenseService("ca-pub-7291399211842501");
+      GS_googleEnableAllServices();
+    </script><script src="Catalogo-de-Paginas-Web-Educativas%20Archivos/google_ads.js"></script>
+    <script type="text/javascript">
+      var params = {}; //hash for url fragments
+      var adName; //name of the ad unit
+      var skip;   //number of ads we've run.  Used by adsense to skip over ads we've already run.
+      var parts = window.location.href.match(/[#&]([^&#=]+)=([^&#=]+)/g);
+      for (var i = 0; i < parts.length; i++) {
+        var keyVal = parts[i].substr(1).split('=');
+        params[keyVal[0]] = unescape(keyVal[1]);
+      }
+      
+      skip = parseInt(params['skip']) || 0;
+      if (adName = params['ad_unit']) {
+        for (var key in top.Scribd.Ads.attributes) {
+          var value = top.Scribd.Ads.attributes[key];
+          if( value instanceof Array) {
+            value = value.map(function(f){return f + '';});
+          }
+          else {
+            value = value + '';
+          }
+
+
+          GA_googleAddAttr(key, value);
+        }
+
+        GA_googleAddSlot("ca-pub-7291399211842501", adName);
+
+        GA_googleAddAdSenseSlotAttr(adName, "google_skip", skip);
+
+        GA_googleAddAdSenseSlotAttr(adName, "google_page_url", top.location.href);
+      }
+    </script>
+    <script type="text/javascript">
+      GA_googleFetchAds();
+    </script>
+  <meta http-equiv="Content-Language" content="es">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="Catalogo-de-Paginas-Web-Educativas%20Archivos/osd.js" type="text/javascript"></script></head>
+  <body class="smartling-es" style="background-color: transparent;">
+    <script type="text/javascript">
+      if (adName) {
+        top.Scribd.Ads.RefreshUnit.get[adName].iframeLoaded(); 
+        GA_googleFillSlot(adName);
+      }
+    </script><script src="ad_refresher_data/ads"></script><div id="google_ads_div_Doc_Sideboard_HalfPage_Pinned_300x600_ad_container"><script type="text/javascript">
+admeld_publisher  = 730;
+admeld_site       = 'scribd';
+admeld_size       = '160x600';
+admeld_placement   = 'document';
+</script>
+<script type="text/javascript" src="Catalogo-de-Paginas-Web-Educativas%20Archivos/meld128.js"></script><iframe marginwidth="0" marginheight="0" border="0" src="ad_refresher_data/document.htm" frameborder="0" height="600" scrolling="no" width="160"></iframe>
+
+</div>
+
+  
+
+</body></html>

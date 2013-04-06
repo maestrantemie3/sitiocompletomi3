@@ -1,0 +1,6 @@
+document.write('<a target=\"_blank\" href=\"http://ad.z5x.net/clk?3,eAGdUtuOmzAQ.Zq8JZGxwRBFfSBNs9rVJrvqklbpS-X4AngJd8KGr-.YoO1W6kNVhDwzZ2Y4M8c4ZM09F2HHXUkZuNTz.bVDPOFQJ3B9OUfr9XpFV66LkUvmfRTkm.P3l4f48.OXEoXjc6OP.eTGxp7G4DkwdrcL9O5g8TDM-uZuTG687XH0.u.cELbZT633YTjxk9MhQdFx8.7NbYhOOhwO-lv2GJ3QPjq2-2iX7V-Q93T3NXmMjuSA7.t9dI-e7h7SH--N4af5PGnbckbCGd7B27J4ycRFZmLJiwsATMCRqppdJDg-QXA2vE7PBvdx8LYyiCh4d5F5OyM75EAL2RIVp8FbMHQ1p6-l6hrFBs1ueZdcWHzWyhmGc5Fz3bdvZUvL9LroVJtUM0yRU6fwAScQSinsoICu1DmwiZxBAjzg2TqEIHOPDnaJZ7DBsCKYhl7AMzbpxvLE1OvGILCpTaliTHV1Bo6VAHuEzbCHlT1ksxzXHHUAGHa0Gc.DAfGAEjDOWpYVcbEQclGyOM1Zs-jleSFFB6n0ygxpLZWs.87S9.0yLoo4k4ZmKUcGMxRMoxozDxGtoaI1N5YIbSMQCvyJ0iAeRkA8eR.pobUp4Bbg-qBjqqEcrg9CYhpoU6U2wja6yjGHuEorpZmdiU4ziUkqaLZiTXKBMav8qdhvzcD7oBpE.6IbDCbHuZjIqpYWnKcxi3spPdYSYRTAtGtiOzpTlea5uuaqzn03qYqiKfVNN23aZYPOkDJlsGkamyWJ-Nmthsq.XnEnarGoXwXpG7-3Ndz88lBSa.YL9g9BVg==,\"><img border=\"0\" alt=\"\" height=\"90\" width=\"728\" src=\"http://content.yieldmanager.edgesuite.net/atoms/f2/d6/f2/78/f2d6f278dc9627ec7160622a93d012b9.gif\"></img></a>');
+var rm_data = new Object();
+rm_data.creative_id = 10293903;
+rm_data.offer_type = 38;
+rm_data.entity_id = 425348;
+if (window.rm_crex_data) {rm_crex_data.push(10293903);}
